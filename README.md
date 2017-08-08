@@ -14,20 +14,23 @@ The Omnibus installer is a full installation and an executable script.They provi
 $sudo su-
 
 sh-3.2#
-```
 
  sudo curl -L https://www.opscode.com/chef/install.sh | bash
+ ```
  # TIP
 Curl utility is not installed by default. You can install by using the following command:
 
 (ubuntu)
 ```sh 
 $ sudo apt-get install curl 
+```
 
  (Rehat, CentOS)
  ```sh 
  $ sudo yum install curl
+ ```
  
  (Mac OSX)
  ```sh 
  $ brew install curl
+ ```
