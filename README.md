@@ -16,7 +16,8 @@ $sudo su-
 sh-3.2#
 
  sudo curl -L https://www.opscode.com/chef/install.sh | bash
-                       #TIP#
+ #
+ TIP
 Curl utility is not installed by default. You can install by using the following command:
 
 $ sudo apt-get install curl (ubuntu)
